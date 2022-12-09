@@ -1,4 +1,5 @@
 body {
+    display: flex;
     font: 'Raleway', sans-serif;
     color: rgba(0,0,0,0.5);
     text-align: center;
@@ -6,10 +7,28 @@ body {
     letter-spacing: 0.5em;
     top: 15%;
     background: linear-gradient(to right, red, yellow);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+}
+
+.color1 {
+    margin: 10px;
+}
+
+.color2 {
+    margin: 10px;
 }
 
 h1 {
-    font: 600 3em 'Raleway', sans-serif;
+    font: 600 2em 'Raleway', sans-serif;
+    font-family: 'Press Start 2P', cursive;
     color: rgba(0,0,0,0.5);
     text-align: center;
     text-transform: uppercase;
@@ -19,6 +38,9 @@ h1 {
 
 h2 {
     font-family: 'Raleway', sans-serif;
+    font-size: 1.3em;
+    text-transform: none;
+    letter-spacing: 0.2em;
 }
 
 h3 {
